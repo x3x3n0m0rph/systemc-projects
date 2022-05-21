@@ -41,7 +41,6 @@ SC_MODULE(JKTriggerSync)
         }
     }
 
-
     SC_CTOR(JKTriggerSync) : J_pin(), K_pin(), Q_pin(), NQ_pin()
     {
         SC_METHOD(clock);

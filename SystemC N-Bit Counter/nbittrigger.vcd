@@ -1,0 +1,698 @@
+$date
+     May 21, 2022       20:56:31
+$end
+
+$version
+ SystemC 2.3.4_pub_rev_20190614-Accellera --- Apr 26 2022 19:23:13
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clock       $end
+$var wire    1  aaaab  clr       $end
+$var wire    4  aaaac  q [3:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaaaa
+1aaaab
+b0 aaaac
+$end
+
+#3
+0aaaab
+
+#10
+1aaaaa
+
+#11
+0aaaaa
+b1111 aaaac
+
+#12
+1aaaaa
+
+#13
+0aaaaa
+b1110 aaaac
+
+#14
+1aaaaa
+
+#15
+0aaaaa
+b1101 aaaac
+
+#16
+1aaaaa
+
+#17
+0aaaaa
+b1100 aaaac
+
+#18
+1aaaaa
+
+#19
+0aaaaa
+b1011 aaaac
+
+#20
+1aaaaa
+
+#21
+0aaaaa
+b1010 aaaac
+
+#22
+1aaaaa
+
+#23
+0aaaaa
+b1001 aaaac
+
+#24
+1aaaaa
+
+#25
+0aaaaa
+b1000 aaaac
+
+#26
+1aaaaa
+
+#27
+0aaaaa
+b111 aaaac
+
+#28
+1aaaaa
+
+#29
+0aaaaa
+b110 aaaac
+
+#30
+1aaaaa
+
+#31
+0aaaaa
+b101 aaaac
+
+#32
+1aaaaa
+
+#33
+0aaaaa
+b100 aaaac
+
+#34
+1aaaaa
+
+#35
+0aaaaa
+b11 aaaac
+
+#36
+1aaaaa
+
+#37
+0aaaaa
+b10 aaaac
+
+#38
+1aaaaa
+
+#39
+0aaaaa
+b1 aaaac
+
+#40
+1aaaaa
+
+#41
+0aaaaa
+b0 aaaac
+
+#42
+1aaaaa
+
+#43
+0aaaaa
+b1111 aaaac
+
+#44
+1aaaaa
+
+#45
+0aaaaa
+b1110 aaaac
+
+#46
+1aaaaa
+
+#47
+0aaaaa
+b1101 aaaac
+
+#48
+1aaaaa
+
+#49
+0aaaaa
+b1100 aaaac
+
+#50
+1aaaaa
+
+#51
+0aaaaa
+b1011 aaaac
+
+#52
+1aaaaa
+
+#53
+0aaaaa
+b1010 aaaac
+
+#54
+1aaaaa
+
+#55
+0aaaaa
+b1001 aaaac
+
+#56
+1aaaaa
+
+#57
+0aaaaa
+b1000 aaaac
+
+#58
+1aaaaa
+
+#59
+0aaaaa
+b111 aaaac
+
+#60
+1aaaaa
+
+#61
+0aaaaa
+b110 aaaac
+
+#62
+1aaaaa
+
+#63
+0aaaaa
+b101 aaaac
+
+#64
+1aaaaa
+
+#65
+0aaaaa
+b100 aaaac
+
+#66
+1aaaaa
+
+#67
+0aaaaa
+b11 aaaac
+
+#68
+1aaaaa
+
+#69
+0aaaaa
+b10 aaaac
+
+#70
+1aaaaa
+
+#71
+0aaaaa
+b1 aaaac
+
+#72
+1aaaaa
+
+#73
+0aaaaa
+b0 aaaac
+
+#74
+1aaaaa
+
+#75
+0aaaaa
+b1111 aaaac
+
+#76
+1aaaaa
+
+#77
+0aaaaa
+b1110 aaaac
+
+#78
+1aaaaa
+
+#79
+0aaaaa
+b1101 aaaac
+
+#80
+1aaaaa
+
+#81
+0aaaaa
+b1100 aaaac
+
+#82
+1aaaaa
+
+#83
+0aaaaa
+b1011 aaaac
+
+#84
+1aaaaa
+
+#85
+0aaaaa
+b1010 aaaac
+
+#86
+1aaaaa
+
+#87
+0aaaaa
+b1001 aaaac
+
+#88
+1aaaaa
+
+#89
+0aaaaa
+b1000 aaaac
+
+#90
+1aaaaa
+
+#91
+0aaaaa
+b111 aaaac
+
+#92
+1aaaaa
+
+#93
+0aaaaa
+b110 aaaac
+
+#94
+1aaaaa
+
+#95
+0aaaaa
+b101 aaaac
+
+#96
+1aaaaa
+
+#97
+0aaaaa
+b100 aaaac
+
+#98
+1aaaaa
+
+#99
+0aaaaa
+b11 aaaac
+
+#100
+1aaaaa
+
+#101
+0aaaaa
+b10 aaaac
+
+#102
+1aaaaa
+
+#103
+0aaaaa
+b1 aaaac
+
+#104
+1aaaaa
+
+#105
+0aaaaa
+b0 aaaac
+
+#106
+1aaaaa
+
+#107
+0aaaaa
+b1111 aaaac
+
+#108
+1aaaaa
+
+#109
+0aaaaa
+b1110 aaaac
+
+#110
+1aaaaa
+
+#111
+0aaaaa
+b1101 aaaac
+
+#112
+1aaaaa
+
+#113
+0aaaaa
+b1100 aaaac
+
+#114
+1aaaaa
+
+#115
+0aaaaa
+b1011 aaaac
+
+#116
+1aaaaa
+
+#117
+0aaaaa
+b1010 aaaac
+
+#118
+1aaaaa
+
+#119
+0aaaaa
+b1001 aaaac
+
+#120
+1aaaaa
+
+#121
+0aaaaa
+b1000 aaaac
+
+#122
+1aaaaa
+
+#123
+0aaaaa
+b111 aaaac
+
+#124
+1aaaaa
+
+#125
+0aaaaa
+b110 aaaac
+
+#126
+1aaaaa
+
+#127
+0aaaaa
+b101 aaaac
+
+#128
+1aaaaa
+
+#129
+0aaaaa
+b100 aaaac
+
+#130
+1aaaaa
+
+#131
+0aaaaa
+b11 aaaac
+
+#132
+1aaaaa
+
+#133
+0aaaaa
+b10 aaaac
+
+#134
+1aaaaa
+
+#135
+0aaaaa
+b1 aaaac
+
+#136
+1aaaaa
+
+#137
+0aaaaa
+b0 aaaac
+
+#138
+1aaaaa
+
+#139
+0aaaaa
+b1111 aaaac
+
+#140
+1aaaaa
+
+#141
+0aaaaa
+b1110 aaaac
+
+#142
+1aaaaa
+
+#143
+0aaaaa
+b1101 aaaac
+
+#144
+1aaaaa
+
+#145
+0aaaaa
+b1100 aaaac
+
+#146
+1aaaaa
+
+#147
+0aaaaa
+b1011 aaaac
+
+#148
+1aaaaa
+
+#149
+0aaaaa
+b1010 aaaac
+
+#150
+1aaaaa
+
+#151
+0aaaaa
+b1001 aaaac
+
+#152
+1aaaaa
+
+#153
+0aaaaa
+b1000 aaaac
+
+#154
+1aaaaa
+
+#155
+0aaaaa
+b111 aaaac
+
+#156
+1aaaaa
+
+#157
+0aaaaa
+b110 aaaac
+
+#158
+1aaaaa
+
+#159
+0aaaaa
+b101 aaaac
+
+#160
+1aaaaa
+
+#161
+0aaaaa
+b100 aaaac
+
+#162
+1aaaaa
+
+#163
+0aaaaa
+b11 aaaac
+
+#164
+1aaaaa
+
+#165
+0aaaaa
+b10 aaaac
+
+#166
+1aaaaa
+
+#167
+0aaaaa
+b1 aaaac
+
+#168
+1aaaaa
+
+#169
+0aaaaa
+b0 aaaac
+
+#170
+1aaaaa
+
+#171
+0aaaaa
+b1111 aaaac
+
+#172
+1aaaaa
+
+#173
+0aaaaa
+b1110 aaaac
+
+#174
+1aaaaa
+
+#175
+0aaaaa
+b1101 aaaac
+
+#176
+1aaaaa
+
+#177
+0aaaaa
+b1100 aaaac
+
+#178
+1aaaaa
+
+#179
+0aaaaa
+b1011 aaaac
+
+#180
+1aaaaa
+
+#181
+0aaaaa
+b1010 aaaac
+
+#182
+1aaaaa
+
+#183
+0aaaaa
+b1001 aaaac
+
+#184
+1aaaaa
+
+#185
+0aaaaa
+b1000 aaaac
+
+#186
+1aaaaa
+
+#187
+0aaaaa
+b111 aaaac
+
+#188
+1aaaaa
+
+#189
+0aaaaa
+b110 aaaac
+
+#190
+1aaaaa
+
+#191
+0aaaaa
+b101 aaaac
+
+#192
+1aaaaa
+
+#193
+0aaaaa
+b100 aaaac
+
+#194
+1aaaaa
+
+#195
+0aaaaa
+b11 aaaac
+
+#196
+1aaaaa
+
+#197
+0aaaaa
+b10 aaaac
+
+#198
+1aaaaa
+
+#199
+0aaaaa
+b1 aaaac
+
+#200
