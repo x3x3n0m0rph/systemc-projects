@@ -1,0 +1,273 @@
+$date
+     May 12, 2022       22:51:10
+$end
+
+$version
+ SystemC 2.3.4_pub_rev_20190614-Accellera --- Apr 26 2022 19:23:13
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clock       $end
+$var wire    1  aaaab  reset       $end
+$var wire    1  aaaac  input       $end
+$var wire    4  aaaad  out [3:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+0aaaaa
+0aaaab
+0aaaac
+b0 aaaad
+$end
+
+#10000
+1aaaaa
+
+#20000
+0aaaaa
+
+#30000
+1aaaaa
+
+#40000
+0aaaaa
+1aaaac
+
+#50000
+1aaaaa
+b1 aaaad
+
+#60000
+0aaaaa
+
+#70000
+1aaaaa
+b10 aaaad
+
+#80000
+0aaaaa
+
+#90000
+1aaaaa
+b11 aaaad
+
+#100000
+0aaaaa
+
+#110000
+1aaaaa
+b100 aaaad
+
+#120000
+0aaaaa
+
+#130000
+1aaaaa
+b101 aaaad
+
+#140000
+0aaaaa
+
+#150000
+1aaaaa
+b110 aaaad
+
+#160000
+0aaaaa
+
+#170000
+1aaaaa
+b111 aaaad
+
+#180000
+0aaaaa
+
+#190000
+1aaaaa
+b1000 aaaad
+
+#200000
+0aaaaa
+
+#210000
+1aaaaa
+b1001 aaaad
+
+#220000
+0aaaaa
+
+#230000
+1aaaaa
+b1010 aaaad
+
+#240000
+0aaaaa
+
+#250000
+1aaaaa
+b1011 aaaad
+
+#260000
+0aaaaa
+
+#270000
+1aaaaa
+b1100 aaaad
+
+#280000
+0aaaaa
+
+#290000
+1aaaaa
+b1101 aaaad
+
+#300000
+0aaaaa
+
+#310000
+1aaaaa
+b1110 aaaad
+
+#320000
+0aaaaa
+
+#330000
+1aaaaa
+b1111 aaaad
+
+#340000
+0aaaaa
+
+#350000
+1aaaaa
+b0 aaaad
+
+#360000
+1aaaab
+0aaaac
+
+#370000
+0aaaaa
+0aaaab
+1aaaac
+b1 aaaad
+
+#380000
+1aaaaa
+b10 aaaad
+
+#390000
+0aaaaa
+
+#400000
+1aaaaa
+b11 aaaad
+
+#410000
+0aaaaa
+
+#420000
+1aaaaa
+b100 aaaad
+
+#430000
+0aaaaa
+
+#440000
+1aaaaa
+b101 aaaad
+
+#450000
+0aaaaa
+
+#460000
+1aaaaa
+b110 aaaad
+
+#470000
+0aaaaa
+
+#480000
+1aaaaa
+b111 aaaad
+
+#490000
+0aaaaa
+
+#500000
+1aaaaa
+b1000 aaaad
+
+#510000
+0aaaaa
+
+#520000
+1aaaaa
+b1001 aaaad
+
+#530000
+0aaaaa
+
+#540000
+1aaaaa
+b1010 aaaad
+
+#550000
+0aaaaa
+
+#560000
+1aaaaa
+b1011 aaaad
+
+#570000
+0aaaaa
+
+#580000
+1aaaaa
+b1100 aaaad
+
+#590000
+0aaaaa
+
+#600000
+1aaaaa
+b1101 aaaad
+
+#610000
+0aaaaa
+
+#620000
+1aaaaa
+b1110 aaaad
+
+#630000
+0aaaaa
+
+#640000
+1aaaaa
+b1111 aaaad
+
+#650000
+0aaaaa
+
+#660000
+1aaaaa
+b0 aaaad
+
+#670000
+0aaaaa
+
+#680000
+1aaaaa
+b1 aaaad
+
+#690000
