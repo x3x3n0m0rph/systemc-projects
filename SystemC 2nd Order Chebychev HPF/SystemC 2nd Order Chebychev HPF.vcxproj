@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{11FBBF02-4825-4D6E-9A06-205E08BB8C34}</ProjectGuid>
+    <ProjectGuid>{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}</ProjectGuid>
     <RootNamespace>SystemCJKTrigger</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>SystemC Two-bit Counter</ProjectName>
+    <ProjectName>SystemC 2nd Order Chebychev HPF</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -72,18 +72,24 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
+    <ExternalIncludePath>C:\DEV\C++\systemc\src;C:\DEV\C++\systemc-ams-2.3\src;$(ExternalIncludePath)</ExternalIncludePath>
+    <SourcePath>C:\DEV\C++\systemc\src;C:\DEV\C++\systemc-ams-2.3\src;$(VC_SourcePath);</SourcePath>
+    <LibraryPath>C:\DEV\C++\systemc\msvc10\SystemC\Debug;C:\DEV\C++\systemc-ams-2.3\msvc12\Debug;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LinkIncremental>false</LinkIncremental>
+    <ExternalIncludePath>C:\DEV\C++\systemc\src;C:\DEV\C++\systemc-ams-2.3\src;$(ExternalIncludePath)</ExternalIncludePath>
+    <SourcePath>C:\DEV\C++\systemc\src;C:\DEV\C++\systemc-ams-2.3\src;$(VC_SourcePath);</SourcePath>
+    <LibraryPath>C:\DEV\C++\systemc\msvc10\SystemC\Release;C:\DEV\C++\systemc-ams-2.3\msvc12\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\DEV\C++\systemc-ams-2.3\src;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>C:\DEV\C++\systemc\src;C:\DEV\C++\systemc-ams-2.3\src;$(ExternalIncludePath)</ExternalIncludePath>
+    <SourcePath>C:\DEV\C++\systemc\src;C:\DEV\C++\systemc-ams-2.3\src;$(VC_SourcePath);</SourcePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\DEV\C++\systemc-ams-2.3\src;$(IncludePath)</IncludePath>
+    <ExternalIncludePath>C:\DEV\C++\systemc\src;C:\DEV\C++\systemc-ams-2.3\src;$(ExternalIncludePath)</ExternalIncludePath>
+    <SourcePath>C:\DEV\C++\systemc\src;C:\DEV\C++\systemc-ams-2.3\src;$(VC_SourcePath);</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -100,7 +106,8 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>C:\DEV\C++\systemc\msvc10\SystemC\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>systemc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>systemc.lib;systemc_ams.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>LinkVerboseLib</ShowProgress>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -117,6 +124,8 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ShowProgress>LinkVerboseLib</ShowProgress>
+      <AdditionalDependencies>systemc.lib;systemc_ams.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -151,10 +160,8 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TwoBitCounterSync.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="TwoBitCounter.vcd" />
+    <ClInclude Include="SecondOrderChebychevHPF.h" />
+    <ClInclude Include="SinSource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

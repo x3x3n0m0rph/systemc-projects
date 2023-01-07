@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31605.320
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SystemC JK-Trigger", "SystemC JK-Trigger\SystemC JK-Trigger.vcxproj", "{1A2AD473-EBFA-43F6-8AC5-2B2A8D78D507}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SystemC Two-bit Counter", "SystemC Two-bit Counter\SystemC Two-bit Counter.vcxproj", "{11FBBF02-4825-4D6E-9A06-205E08BB8C34}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SystemC N-Bit Counter", "SystemC N-Bit Counter\SystemC N-Bit Counter.vcxproj", "{553A610C-2EEF-4E15-B501-67CBE0A41CFA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SystemC 2nd Order Chebychev HPF", "SystemC 2nd Order Chebychev HPF\SystemC 2nd Order Chebychev HPF.vcxproj", "{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,18 @@ Global
 		{553A610C-2EEF-4E15-B501-67CBE0A41CFA}.SystemC Project|x64.Build.0 = Debug|x64
 		{553A610C-2EEF-4E15-B501-67CBE0A41CFA}.SystemC Project|x86.ActiveCfg = Debug|Win32
 		{553A610C-2EEF-4E15-B501-67CBE0A41CFA}.SystemC Project|x86.Build.0 = Debug|Win32
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.Debug|x64.ActiveCfg = Debug|x64
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.Debug|x64.Build.0 = Debug|x64
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.Debug|x86.ActiveCfg = Debug|Win32
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.Debug|x86.Build.0 = Debug|Win32
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.Release|x64.ActiveCfg = Release|x64
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.Release|x64.Build.0 = Release|x64
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.Release|x86.ActiveCfg = Release|Win32
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.Release|x86.Build.0 = Release|Win32
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.SystemC Project|x64.ActiveCfg = Debug|x64
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.SystemC Project|x64.Build.0 = Debug|x64
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.SystemC Project|x86.ActiveCfg = Debug|Win32
+		{D8654FB4-7C7C-46B6-BF39-0E435537ACFF}.SystemC Project|x86.Build.0 = Debug|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
