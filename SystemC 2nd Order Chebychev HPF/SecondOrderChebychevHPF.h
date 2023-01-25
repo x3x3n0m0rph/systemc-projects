@@ -49,7 +49,7 @@ SC_MODULE(SecondOrderChebychevHPF)
 		v_out("v_out", 1.0),
 
 		//v_5v("v_5v", 0, 5.0),
-		v_offset("v_offset", 0, 2.5),
+		v_offset("v_offset", 0.0, 2.5),
 
 		nullor("nullor"),
 		c1("c1", 68.0E-9),
@@ -85,7 +85,7 @@ SC_MODULE(SecondOrderChebychevHPF)
 		v_out.p(n.at(3));
 		v_out.outp(output);
 		//v_5v.p(n.at(5));
-		v_offset(n.at(4));
+		v_offset.p(n.at(4));
 
 
 		nullor.nip(n.at(2));

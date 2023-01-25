@@ -160,6 +160,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MeanderSource.h" />
     <ClInclude Include="SecondOrderChebychevHPF.h" />
     <ClInclude Include="SinSource.h" />
   </ItemGroup>
